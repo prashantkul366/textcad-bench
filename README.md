@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Download from HuggingFace (replace with your repo):
 
 ```bash
-huggingface-cli download prashantkul366/textcad-bench \
+huggingface-cli download pro-shant/textcad-bench \
     t1_samples.json t2_samples.json t3_cadprompt.json \
     gt_meshes.zip gt_meshes_t2.zip gt_meshes_cadprompt.zip \
     --local-dir ./data
