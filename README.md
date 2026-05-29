@@ -35,7 +35,7 @@ CD ×10², lower is better. No model is #1 across all three sets.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/textcad-bench.git
+git clone https://github.com/prashantkul366/textcad-bench.git
 cd textcad-bench
 pip install -r requirements.txt
 ```
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Download from HuggingFace (replace with your repo):
 
 ```bash
-huggingface-cli download YOUR_HF_REPO \
+huggingface-cli download prashantkul366/textcad-bench \
     t1_samples.json t2_samples.json t3_cadprompt.json \
     gt_meshes.zip gt_meshes_t2.zip gt_meshes_cadprompt.zip \
     --local-dir ./data
