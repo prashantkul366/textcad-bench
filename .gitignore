@@ -1,0 +1,26 @@
+# Data and outputs — hosted on HuggingFace, not GitHub
+data/
+results/
+*.zip
+*.obj
+*.stl
+*.ply
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Weights — too large for GitHub
+*.pt
+*.bin
+*.safetensors
+
+https://github.com/prashantkul366/textcad-bench.git
